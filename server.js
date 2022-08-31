@@ -9,7 +9,7 @@ app.get("/", function(request, response) {
 
 app.get("/about", function(req, res) {
   // console.log(request);
-  res.send("<h1>author: Wisang Eom<br>Job: Web developer</h1>");
+  res.send("<h1>Author: Wisang Eom<br>Job: Web Developer</h1>");
 });
 
 app.listen(3000, function() {
